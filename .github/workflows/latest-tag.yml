@@ -2,7 +2,8 @@ name: 🔖 Update latest tag
 
 on:
   push:
-    branches: [master]
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
   run:
