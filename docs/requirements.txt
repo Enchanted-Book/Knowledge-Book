@@ -1,0 +1,6 @@
+linkify-it-py
+myst-parser
+pydata-sphinx-theme
+sphinx
+sphinx-design
+sphinx-togglebutton
