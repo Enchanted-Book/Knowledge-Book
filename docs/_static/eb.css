@@ -8,6 +8,8 @@ html[data-theme="dark"] {
 	--scrollbar-thumb-bg: #ffffff19;
 	--scrollbar-thumb-bg-hover: #ffffff26;
 	--scrollbar-thumb-bg-active: #ffffff2b;
+	--pst-color-background: #181619;
+	--pst-color-on-background: #252528;
 }
 
 *::-webkit-scrollbar {
