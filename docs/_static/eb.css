@@ -1,128 +1,131 @@
 html[data-theme="light"] {
-  --scrollbar-thumb-bg: #00000019;
-  --scrollbar-thumb-bg-hover: #00000026;
-  --scrollbar-thumb-bg-active: #0000002b;
+	--scrollbar-thumb-bg: #00000019;
+	--scrollbar-thumb-bg-hover: #00000026;
+	--scrollbar-thumb-bg-active: #0000002b;
 }
 
 html[data-theme="dark"] {
-  --scrollbar-thumb-bg: #ffffff19;
-  --scrollbar-thumb-bg-hover: #ffffff26;
-  --scrollbar-thumb-bg-active: #ffffff2b;
+	--scrollbar-thumb-bg: #ffffff19;
+	--scrollbar-thumb-bg-hover: #ffffff26;
+	--scrollbar-thumb-bg-active: #ffffff2b;
+	--pst-color-background: #181619;
+	--pst-color-on-background: #252528;
 }
 
 *::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+	width: 8px;
+	height: 8px;
 }
 
 *::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb-bg);
+	background: var(--scrollbar-thumb-bg);
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background: var(--scrollbar-thumb-bg-hover);
+	background: var(--scrollbar-thumb-bg-hover);
 }
 
 *::-webkit-scrollbar-thumb:active {
-  background: var(--scrollbar-thumb-bg-active);
+	background: var(--scrollbar-thumb-bg-active);
 }
 
-.treeview ul, .treeview li {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  list-style-image: none;
+.treeview ul,
+.treeview li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
 }
 
 .treeview li li {
-  position: relative;
-  padding: .15rem 0 .15rem 1rem;
-  margin-left: .5rem;
-  border-left: 1px solid #636363;
+	position: relative;
+	padding: 0.15rem 0 0.15rem 1rem;
+	margin-left: 0.5rem;
+	border-left: 1px solid #636363;
 }
 
 .treeview li li::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -1px;
-  width: .75rem;
-  height: 1.15rem;
-  border-left: 1px solid #636363;
-  border-bottom: 1px solid #636363;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -1px;
+	width: 0.75rem;
+	height: 1.15rem;
+	border-left: 1px solid #636363;
+	border-bottom: 1px solid #636363;
 }
 
 .treeview li li:last-child {
-  border-color: transparent;
+	border-color: transparent;
 }
 
 [class^="nbt-"] {
-  display: inline-block;
-  background-image: url('nbt-sprite.png');
-  background-position: -16px -48px;
-  background-repeat: no-repeat;
-  background-size: 64px;
-  vertical-align: middle;
-  width: 1em;
-  height: 1em;
+	display: inline-block;
+	background-image: url("nbt-sprite.png");
+	background-position: -16px -48px;
+	background-repeat: no-repeat;
+	background-size: 64px;
+	vertical-align: middle;
+	width: 1em;
+	height: 1em;
 }
 
 .nbt-byte {
-  background-position: 0px 0px;
+	background-position: 0px 0px;
 }
 
 .nbt-double {
-  background-position: -16px 0px;
+	background-position: -16px 0px;
 }
 
 .nbt-float {
-  background-position: -32px 0px;
+	background-position: -32px 0px;
 }
 
 .nbt-int {
-  background-position: -48px 0px;
+	background-position: -48px 0px;
 }
 
 .nbt-long {
-  background-position: 0px -16px;
+	background-position: 0px -16px;
 }
 
 .nbt-short {
-  background-position: -16px -16px;
+	background-position: -16px -16px;
 }
 
 .nbt-string {
-  background-position: -32px -16px;
+	background-position: -32px -16px;
 }
 
 .nbt-compound {
-  background-position: -48px -16px;
+	background-position: -48px -16px;
 }
 
 .nbt-byte-array {
-  background-position: 0px -32px;
+	background-position: 0px -32px;
 }
 
 .nbt-int-array {
-  background-position: -16px -32px;
+	background-position: -16px -32px;
 }
 
 .nbt-list {
-  background-position: -32px -32px;
+	background-position: -32px -32px;
 }
 
 .nbt-bool {
-  background-position: -48px -32px;
+	background-position: -48px -32px;
 }
 
 .nbt-long-array {
-  background-position: 0px -48px;
+	background-position: 0px -48px;
 }
 
 .nbt-any {
-  background-position: -16px -48px;
+	background-position: -16px -48px;
 }
 
 .nbt-number {
-  background-position: -32px -48px;
+	background-position: -32px -48px;
 }
