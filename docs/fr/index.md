@@ -32,7 +32,7 @@ Une approche progressive et plus approfondie, où vous apprendrez pas à pas les
 :::
 
 :::{grid-item-card} 🛠️ Un wiki des commandes
-:link: commandes
+:link: wiki
 :link-type: doc
 :margin: 0 3 0 0
 
