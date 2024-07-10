@@ -1,8 +1,8 @@
-# 🛠️ Commands
+# 📖 Guide
 
 ```{toctree}
 :hidden:
 :caption: Guide
 
-commands/example-command
+guide/chapitre
 ```

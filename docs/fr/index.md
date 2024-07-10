@@ -8,7 +8,7 @@ sd_hide_title: true
 
 # Enchanted Book
 
-```{image} /_imgs/banner.svg
+```{image} /../_imgs/banner.svg
 :class: dark_light
 :width: 600px
 ```
@@ -35,5 +35,6 @@ Ami·e·s curieux·se·s, map makers en herbe ou apprenti·e·s data packers, no
 :maxdepth: 1
 
 guide
-commands
+wiki
+contribuer
 ```

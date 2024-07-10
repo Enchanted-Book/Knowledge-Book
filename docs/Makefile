@@ -6,6 +6,7 @@
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 SPHINXAUTO    ?= sphinx-autobuild
+LANGUAGE      ?= fr
 SOURCEDIR     = .
 BUILDDIR      = _build
 
@@ -14,11 +15,11 @@ help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 livehtml: clean
-	@$(SPHINXAUTO) -b html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@$(SPHINXAUTO) -b html "$(SOURCEDIR)/$(LANGUAGE)" "$(BUILDDIR)/html/$(LANGUAGE)" $(SPHINXOPTS) $(O)
 
 .PHONY: help Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@$(SPHINXBUILD) -b $@ "$(SOURCEDIR)/$(LANGUAGE)" "$(BUILDDIR)/$@/$(LANGUAGE)" $(SPHINXOPTS) $(O)
