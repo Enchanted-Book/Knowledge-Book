@@ -1,0 +1,16 @@
+<div class="dropdown">
+	<button id="language-switcher-button" type="button" class="language-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+			data-bs-toggle="dropdown" aria-haspopup="listbox" aria-controls="language-switcher-list"
+			aria-label="Language switcher list" data-active-language="{{ language }}">
+		{{ languages.get(language, 'fr') }}
+	</button>
+	<div id="language-switcher-list" class="language-switcher__menu dropdown-menu list-group-flush py-0 dropdown-menu-dark"
+		 role="listbox" aria-labelledby="language-switcher-button">
+		{% for lang, name in languages.items() %}
+			<a class="dropdown-item list-group-item list-group-item-action py-1"
+			   href="{{ pathto('../' + lang + '/index') }}" role="option" data-language="{{ lang }}">
+				<span>{{ name }}</span>
+			</a>
+		{% endfor %}
+	</div>
+</div>
