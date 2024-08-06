@@ -4,23 +4,23 @@
 :hidden:
 :caption: Wiki
 
-wiki/TEMPLATE/_main
-wiki/tp/_main
-wiki/give/_main
-wiki/summon/_main
-wiki/effect/_main
-wiki/setblock_fill/_main
-wiki/scoreboard/_main
-wiki/data/_main
-wiki/execute/_main
-wiki/tellraw_title/_main
-wiki/item/_main
-wiki/loot/_main
-wiki/bossbar/_main
-wiki/particle/_main
-wiki/playsound/_main
-wiki/team/_main
-wiki/ride/_main
+wiki/TEMPLATE/main
+wiki/tp/main
+wiki/give/main
+wiki/summon/main
+wiki/effect/main
+wiki/setblock_fill/main
+wiki/scoreboard/main
+wiki/data/main
+wiki/execute/main
+wiki/tellraw_title/main
+wiki/item/main
+wiki/loot/main
+wiki/bossbar/main
+wiki/particle/main
+wiki/playsound/main
+wiki/team/main
+wiki/ride/main
 ```
 
 Bienvenue dans la section Wiki d'Enchanted Book !
