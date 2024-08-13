@@ -1,5 +1,6 @@
 
 ## Introduction
 
-La commande COMMAND est une commande très simple qui permet de faire quelque chose de très simple. Elle est très utile pour faire des choses simples, mais elle peut aussi être utilisée pour faire des choses plus complexes
+La commande `/give` permet de se donner (ou à d'autres joueurs) des items.
+Ces items peuvent être modifiés en précisant les components lors du give.
 
